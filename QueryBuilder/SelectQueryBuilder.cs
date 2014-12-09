@@ -329,7 +329,7 @@ namespace QueryBuilder
             else
             {
                 // Return the built query
-                return Query;
+                return Query.Trim();
             }
         }
     }
